@@ -1,2 +1,2 @@
 #MyWebsite
-PHP, MySQL, JavaScript website.
+PHP, MySQL, JavaScript website in localhost.
