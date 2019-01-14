@@ -1,2 +1,2 @@
-#MyWebsite
-PHP, MySQL, JavaScript website in localhost.
+###`MyWebsite`
+Website worked out with JAVASCRIPT, W3.CSS, CSS3 and HTML5, on WAMP.
