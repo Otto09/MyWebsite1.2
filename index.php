@@ -76,7 +76,7 @@ body, html {
       <i class="fa fa-search"></i>
     </a>
   </div>
-  
+
    <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-text-brown">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
@@ -86,7 +86,7 @@ body, html {
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text --> 
+<!-- First Parallax Image with Logo Text -->
 <div class="w3-container">
 <div class="bgimg-1 w3-display-container" id="home">
     <div class="w3-padding w3-display-middle" style="white-space:nowrap;">
@@ -109,16 +109,16 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
-      Welcome to our website! Welcome to our website! Welcome to our website! 
+      <p>Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
+      Welcome to our website! Welcome to our website! Welcome to our website!
       Welcome to our website! Welcome to our website! </p>
     </div>
   </div>
@@ -130,7 +130,7 @@ body, html {
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
   </div>
-</div> 
+</div>
 
  <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
@@ -141,39 +141,39 @@ body, html {
   <!-- Responsive Grid. Three columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m4">
-      <a href="#" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
-	  w3-padding-large">PHP + MYSQL</div></a>
+      <a href="https://github.com/Otto09/PHPwithMySQLreturnJSON" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+	  w3-padding-large">PHP + MYSQL + JSON</div></a>
     </div>
-	
+
     <div class="w3-col m4">
-      <a href="#" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      <a href="https://github.com/Otto09/REACTOutputUserInputApp" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
 	  w3-padding-large">REACT</div></a>
     </div>
 
     <div class="w3-col m4">
-      <a href="#" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
-	  w3-padding-large">ANGULARJS</div></a>
+      <a href="https://github.com/Otto09/ANGULARWebAPI" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+	  w3-padding-large">ANGULAR</div></a>
     </div>
   </div>
-  
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m4">  
-      <a href="#" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
-      w3-padding-large">APPML</div></a>
-	</div>  
 
-    <div class="w3-col m4">  
-      <a href="#" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
-      w3-padding-large">JQUERY</div></a>
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/REACTFilteredSearchAppSample" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">REACT</div></a>
 	</div>
 
     <div class="w3-col m4">
-      <a href="#" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
-	  w3-padding-large">JQUERY MOBILE</div></a>
+      <a href="https://github.com/Otto09/PHPwithMySQLandAJAX" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">PHP + MySQL + AJAX</div></a>
+	</div>
+
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/PHPwithMYSQL" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+	  w3-padding-large">PHP + MySQL</div></a>
     </div>
-	
+
   </div>
-</div> 
+</div>
 
 <div style="min-height:33px;"></div>
 
@@ -183,7 +183,7 @@ body, html {
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
 </div>
-  
+
 <script>
 // Page scroll
 /*var last_known_scroll_position = 0;
@@ -192,11 +192,11 @@ var windowHeight = 0;
 function doSomething() {
 	ticking = false;
 	windowHeight = last_known_scroll_position + 690;
-	window.scrollTo(0, windowHeight);	
+	window.scrollTo(0, windowHeight);
 }
 function whenScroll() {
 	last_known_scroll_position = window.scrollY;
-    functionTick();	
+    functionTick();
 }
 function functionTick() {
 	if (!ticking) {
@@ -207,7 +207,7 @@ function functionTick() {
 window.addEventListener('scroll', whenScroll, false);*/
 /*var x = $( window ).height();
 $( window ).scroll(function() {
-	$( window ).scrollTop( x );	
+	$( window ).scrollTop( x );
 });*/
 //Page scroll
 /*window.requestAnimationFrame = window.requestAnimationFrame;
@@ -226,12 +226,12 @@ function moveit(timestamp, duration){
 		})
 	}
 }
-requestAnimationFrame(function(timestamp){	
+requestAnimationFrame(function(timestamp){
     starttime = timestamp || new Date().getTime();
-    moveit(timestamp, 1000);*/	
+    moveit(timestamp, 1000);*/
 // Change style of navbar on scroll
-window.onscroll = function() {myFunction()};	
-function myFunction() { 	
+window.onscroll = function() {myFunction()};
+function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white" + " w3-text-brown";
