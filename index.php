@@ -1,3 +1,9 @@
+<?php
+ini_set('display_startup_errors', 1);
+ini_set('display_errors', 1);
+error_reporting(-1);
+include './contact_form2.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -184,52 +190,62 @@ body, html {
   </div>
 </div>
 
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em><p/>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="workplace.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Cluj-Napoca, Romania<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +40 740 002 657<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ttgoga@yahoo.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+
+      <?php if (!empty($msg)) {
+        echo "<h2>$msg</h2>";
+      }
+      ?>
+
+      <form method="post">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="email" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://www.pinterest.com/login/" target="_blank"><i class="fa fa-pinterest w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/login" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <a href="https://ottosportfoliosite.wordpress.com/" title="Otto's Portfolio" target="_blank" class="w3-hover-text-green">Otto's Portfolio</a> </p>
+</footer>
+
 <script>
-// Page scroll
-/*var last_known_scroll_position = 0;
-var ticking = false;
-var windowHeight = 0;
-function doSomething() {
-	ticking = false;
-	windowHeight = last_known_scroll_position + 690;
-	window.scrollTo(0, windowHeight);
-}
-function whenScroll() {
-	last_known_scroll_position = window.scrollY;
-    functionTick();
-}
-function functionTick() {
-	if (!ticking) {
-		    requestAnimationFrame(doSomething);
-	}
-	ticking = true;
-}
-window.addEventListener('scroll', whenScroll, false);*/
-/*var x = $( window ).height();
-$( window ).scroll(function() {
-	$( window ).scrollTop( x );
-});*/
-//Page scroll
-/*window.requestAnimationFrame = window.requestAnimationFrame;
-//|| function(f){return setTimeout(f, 1000/60)};
-var starttime;
-var windowHeight = window.innerHeight;
-function moveit(timestamp, duration){
-	var timestamp = timestamp || new Date().getTime();
-	var runtime = timestamp - starttime;
-	var progress = runtime / duration;
-	progress = Math.min(progress, 1);
-    window.scrollTop = (windowHeight * progress).toFixed();
-    if (runtime < duration){
-            requestAnimationFrame(function(timestamp){
-			moveit(timestamp, duration);
-		})
-	}
-}
-requestAnimationFrame(function(timestamp){
-    starttime = timestamp || new Date().getTime();
-    moveit(timestamp, 1000);*/
-// Change style of navbar on scroll
+//Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
