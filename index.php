@@ -166,20 +166,52 @@ body, html {
     <div class="w3-col m4">
       <a href="https://github.com/Otto09/REACTFilteredSearchAppSample" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
       w3-padding-large">REACT</div></a>
-	</div>
+    </div>
 
     <div class="w3-col m4">
       <a href="https://github.com/Otto09/PHPwithMySQLandAJAX" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
       w3-padding-large">PHP + MySQL + AJAX</div></a>
-	</div>
+	  </div>
 
     <div class="w3-col m4">
       <a href="https://github.com/Otto09/PHPwithMYSQL" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
 	  w3-padding-large">PHP + MySQL</div></a>
     </div>
-
   </div>
-</div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/PHPwithMySQLandAJAXreturnJSON" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">PHP + MySQL + AJAX + JSON</div></a>
+	  </div>
+
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/MyWebsite1.2" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">PHP + PHPMAILER + SMTP + JAVASCRIPT</div></a>
+	  </div>
+
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/ASPNETCoreSQLServerWebApplicationSample" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">.NET CORE+SQL SERVER</div></a>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/ASPNETCoreMySQLConsoleApp" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">.NET CORE + MYSQL</div></a>
+    </div>
+
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/RESTfulAPI" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">.NET CORE API</div></a>
+    </div>
+
+    <div class="w3-col m4">
+      <a href="https://github.com/Otto09/ASPNETCoreWebApplication" style="text-decoration:none;"><div class="w3-green w3-hover-brown w3-hover-opacity w3-xlarge
+      w3-padding-large">.NET CORE Web App</div></a>
+    </div>
+  </div>
 
 <div style="min-height:33px;"></div>
 
